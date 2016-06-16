@@ -1,0 +1,7 @@
+apps:
+- script: build/app.js
+  name: mobile-server
+  watch:
+  - build
+  node_args:
+  - "--harmony"
